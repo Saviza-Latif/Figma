@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI/UX</title>
+    <!-- css -->
+    <style>
+        body{
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        h2{
+            font-size: 2rem;
+            color: beige;
+        }
+.container
+{
+ 
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+ 
+  
+
+  
+} 
+.image_container {
+  width: calc(100% / 4);
+  height: 90vh;
+  padding: 2rem;
+  vertical-align: middle;
+  transition: all 0.3s ease;
+  border: 2px inset beige;
+  margin-bottom: 2rem;
+ 
+
+ 
+
+}
+.image_container  img {
+  width: 100%;
+  height: 70vh;
+}
+.image_container h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.image_container p
+{
+    font-size: 1rem;
+    color: beige;
+    opacity: 0.6;
+    text-align: center;
+}
+
+
+    </style>
+</head>
+<body>
+    <h2>Cafe App</h2>
+    
+   <!--  images of projects -->
+    <div class="container">
+        <div class="image_container">
+            <img src="images/homepage.png" alt="image">
+            <h2>Homapage</h2>
+            <p>It contain all menu categories.</p>
+        </div>
+        <div class="image_container">
+            <img src="images/specific_foodtype.png" alt="image">
+            <h2>Specific foodtype</h2>
+            <p>It contain specific category.</p>
+        </div>
+        <div class="image_container">
+            <img src="images/specific_item.png" alt="image">
+            <h2>Specific item</h2>
+            <p>It contain specific item.</p>
+        </div>
+        <div class="image_container">
+            <img src="images/cart.png" alt="image">
+            <h2>Cart</h2>
+            <p>It contain all item selected and its quantity.</p>
+        </div>
+        <div class="image_container">
+            <img src="images/payment.png" alt="image">
+            <h2>Payment</h2>
+            <p>It contain total price of items added in cart ,tax and shippment price.</p>
+        </div>
+        <div class="image_container">
+            <img src="images/checkout.png" alt="image">
+            <h2>Checkout</h2>
+            <p>It contain form for shippment details.</p>
+        </div>
+    </div>
+
+</body>
+</html>
